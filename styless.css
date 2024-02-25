@@ -1,0 +1,136 @@
+.body{
+    font: Arial, sans-serif;
+    text-align: center;
+    background-image: url('./WhatsApp Image 024-02-23 at 17.16.03_1dd98f0c.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    position: absolute;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#placeMat {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 0;
+    padding-bottom: 80%;
+}
+
+#fork, #spoon, #knife, #rose, #salt, #pepper, #waterglass, #napkin {
+    width: 10%;
+    height: 0;
+    padding-bottom: 10%;
+}
+
+#fork {
+    right: 33%;
+}
+
+#spoon {
+    right: 50%;
+}
+
+#knife {
+    right: 67%;
+}
+
+#rose {
+    left: 50%;
+}
+
+#salt {
+    left: 58%;
+}
+
+#pepper {
+    left: 67%;
+}
+
+#waterglass {
+    left: 10%;
+}
+
+#napkin {
+    left: 33%;
+}
+
+#cross, #tik {
+    width: 15%;
+    height: 15%;
+    bottom: 20px;
+}
+
+#cross {
+    left: 85%;
+}
+
+#tik {
+    right: 85%;
+}
+
+@media (max-width: 600px) {
+    #placeMat, #fork, #spoon, #knife, #rose, #salt, #pepper, #waterglass, #napkin {
+        width: 50%;
+        height: 0;
+        padding-bottom: 50%;
+    }
+
+    #fork {
+        right: 40%;
+    }
+
+    #spoon {
+        right: 50%;
+    }
+
+    #knife {
+        right: 60%;
+    }
+
+    #rose {
+        left: 50%;
+    }
+
+    #salt {
+        left: 55%;
+    }
+
+    #pepper {
+        left: 60%;
+    }
+
+    #waterglass {
+        left: 10%;
+    }
+
+    #napkin {
+        left: 30%;
+    }
+
+    #cross, #tik {
+        width: 30%;
+        height: 30%;
+    }
+
+    #cross {
+        left: 70%;
+    }
+
+    #tik {
+        right: 70%;
+    }
+}
